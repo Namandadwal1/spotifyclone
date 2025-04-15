@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.left {
+    width: 25vw;
+    /* height: 90vh; */
+
+
+}
+
+.right {
+    width: 75vw;
+    /* height: 90vh; */
+}
+
+.img {
+    width: 23px;
+}
+
+.plus {
+    width: 23px;
+}
+
+/* .home{
+    background-color: #121212;
+} */
+
+.arrow {
+    width: 23px;
+}
+
+.home ul li {
+    display: flex;
+    padding-left: 25px;
+
+}
+
+.nav1 {
+    height: 45px;
+    gap: 23px;
+
+
+}
+
+.logo {
+    width: 23px;
+    padding-left: 30px;
+
+}
+
+.left {
+    /* display: flex; */
+    align-items: center;
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 13px;
+    /* justify-content: center; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    flex-wrap: nowrap;
+    background-color: #121212;
+}
+
+.Home {
+    width: 23px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    /* align-items: center; */
+
+
+}
+
+.library {
+    display: flex;
+    align-items: anchor-center;
+    font-size: small;
+    padding-left: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    /* gap: 124px; */
+}
+
+.library-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.plus1 {
+    width: 13px;
+
+    margin-bottom: 5px;
+}
+
+.search {
+
+    position: relative;
+    width: 173px;
+}
+
+.search_box {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 1px;
+}
+
+.search_img {
+    width: 3px;
+}
+
+.home {
+    position: sticky;
+}
+
+.left {
+    top: 0;
+}
+
+.library-container .box {
+    border: rgb(1, 1, 1);
+    /* height: 10vh; */
+    width: 95%;
+
+}
+
+.box1 {
+    position: relative;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.box2 {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+    border-radius: 20px;
+    background-color: #1f1f1f;
+}
+
+.library-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    flex-direction: column;
+    justify-content: center;
+    /* max-height: 35vh;
+    overflow-y: scroll; */
+}
+
+.btn-1 {
+    margin: 23px;
+    color: black;
+    background-color: white;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 7px;
+    margin-top: 1px;
+    width: 125px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.easy {
+    font-size: small;
+    margin: 12px;
+    margin-top: 0;
+}
+
+.playlist {
+    font-size: large;
+    margin: 12px;
+    margin-bottom: 0px;
+}
+
+.right {
+    /* display: flex; */
+
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 13px;
+    /* justify-content: center; */
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    flex-wrap: nowrap;
+    background-color: #202020;
+}
+
+.trending {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 13px 25px;
+}
+
+.trendin-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.show {
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    max-height: 37vh;
+    overflow-y: scroll;
+}
+
+.card1 {
+    /* border: 2px solid red; */
+    width: 155px;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+
+}
+
+.play-btn {
+    position: absolute;
+    height: 23px;
+}
+
+.img-card {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+/* 54:42 */
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: white;
+    stroke-width: 2;
+    /* width: 13px; */
+}
+
+/* .input-place{
+    display: flex;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 10px;
+    border-radius: 25px;
+    width: 300px;
+    position: relative;
+
+} */
+.inputt {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    padding: 5px 10px;
+    padding-right: 50px;
+
+}
+
+.right-nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.premium {
+    padding-left: 250px;
+}
+
+.right-nav {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    margin-right: 120px;
+    width: 70px;
+    list-style: none;
+    border: 2px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    height: 32px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: white;
+    stroke-width: 2;
+}
+
+.login:hover {
+    font-size: 16px;
+    width: 73px;
+    height: 33px;
+}
+
+.artist-container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artist-container header>* {
+    padding: 10px 15px;
+
+}
+
+.popular-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text {
+    font-size: x-large;
+}
+
+.all {
+    font-size: small;
+}
+
+.actual-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 30vh;
+    overflow-y: scroll;
+}
+
+.artist-card1 {
+
+    width: 160px;
+    position: relative;
+}
+
+.artist-card2 {
+
+    width: 160px;
+    position: relative;
+}
+
+.artist-card3 {
+
+    width: 160px;
+    position: relative;
+}
+
+.artist-card4 {
+
+    width: 160px;
+    position: relative;
+}
+
+.artist-card5 {
+
+    width: 160px;
+    position: relative;
+}
+
+.artist-card6 {
+
+    width: 160px;
+    position: relative;
+}
+
+.sidhu {
+
+    width: 150px;
+    /* Adjust as needed */
+    height: 150px;
+    /* Ensure it's square */
+    border-radius: 50%;
+    object-fit: cover;
+    /* Ensures the image fills the circle */
+
+
+}
+
+.alignment-text {
+    text-align: center;
+}
+
+.colour-bg {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: smaller;
+    text-align: center;
+}
+
+.left {
+    position: relative;
+}
+
+
+.playbar{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    bottom: 0;
+    height: 30px;
+    width: 99%;
+    margin: 10px;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+}
+.play-bar{
+    /* background-color: #008000; */
+    /* background-color: #1f1f1f; */
+    background-color: black;
+    border:2px solid  #1f1f1f;
+    border-radius: 30px;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 23px;
+    margin: 0;
+    padding: 0;
+}
+.play-circle{
+    width: 50px;
+    padding: 12px;
+    /* transition: background-color 0.3s ease; */
+}
+.play-circle :hover{
+    width: 55px;
+    cursor: pointer;
+}
+
+.previous{
+   width: 50px;
+}
+.next{
+    width: 50px;
+}
+.songlist{
+    display: flex;
+    
+    border: 2px solid #1f1f1f;
+    height: 30vh;
+    margin: 0 10px;
+    border-radius: 10px;
+    /* margin-top: 22px; */
+    overflow-y: scroll;
+
+}
+
+.songlist ul{
+    padding: 15px 30px;
+
+}
+.songlist ul li{
+    list-style-type: decimal;
+
+}
+.list-song{
+    display: flex;
+    margin: 12px;
+    cursor: pointer;
+    gap: 12px;
+}
+.list-song:hover{
+    text-decoration: underline;
+}
+.three-line{
+    width: 23px;
+}
+.music{
+    width: 12px;
+}

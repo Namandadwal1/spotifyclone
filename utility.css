@@ -1,0 +1,100 @@
+.border {
+    border: 2px solid rgb(9, 8, 8);
+}
+.flex{
+    display: flex;
+}
+.jstify{
+    justify-content: center;
+}
+.align{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-black{
+    background-color: #121212;
+    color: white;
+}
+.sepration{
+    background-color: black;
+    height: 13px;
+    padding-top: 5px;
+    width: 100%;
+}
+.h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    margin-left :7px;
+}
+.para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-small;
+    margin-left: 7px;
+}
+.font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-prop{
+    /* border: 2px solid red; */
+    width: 155px;
+    padding:10px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    
+    margin: 10px;
+}
+.img-card-prop{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.cursor{
+    cursor: pointer;
+}
+.btn-color{
+    color: grey;
+}
+
+.play-btn{
+    position: absolute;
+    height: 23px;
+    top: 110px;
+    right: 18px;
+}
+.relative{
+    position: relative;
+}
+.nav-color{
+    color: #a8a8a8;
+}
+.click:hover{
+    color: white;
+    font-size: 17.5px;
+}.font-size{
+    font-size: 17px;
+}
+/* Webkit Browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 8px; /* Adjust width as needed */
+}
+
+::-webkit-scrollbar-track {
+    background: #000; /* Black background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.4); /* Lighter on hover */
+}
+
+/* Firefox Scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) #000;
+}
